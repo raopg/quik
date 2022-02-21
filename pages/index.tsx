@@ -6,11 +6,10 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>Quik | A blazing fast web IDE</title>
-        <link
-          href="https://fonts.googleapis.com/css?family=Noto Sans"
-          rel="stylesheet"
-        ></link>
       </Head>
+      <h1 className="text-3xl font-bold underline">
+        Quik - A blazing fast web IDE
+      </h1>
     </div>
   );
 };

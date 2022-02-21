@@ -15,7 +15,9 @@ const Home: NextPage = () => {
         <div className="h-[40rem] w-[32rem]">
           <Editor />
         </div>
-        <div className="bg-white h-[40rem] w-[32rem]">Output goes here</div>
+        <div className="bg-white h-[40rem] w-[32rem] ml-4">
+          Output goes here
+        </div>
       </div>
     </div>
   );

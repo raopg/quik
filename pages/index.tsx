@@ -1,8 +1,14 @@
 import type { NextPage } from "next";
-import styles from "../styles/Home.module.css";
+import Head from "next/head";
 
 const Home: NextPage = () => {
-  return <div className={styles.container}></div>;
+  return (
+    <div>
+      <Head>
+        <title>Quik | A blazing fast web IDE</title>
+      </Head>
+    </div>
+  );
 };
 
 export default Home;

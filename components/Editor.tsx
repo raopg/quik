@@ -8,8 +8,8 @@ export const Editor: React.VFC = () => {
   return (
     <CodeMirror
       value={code}
-      height="100%"
-      width="100%"
+      minHeight="100%"
+      minWidth="100%"
       extensions={[javascript({ jsx: true })]}
       onChange={(value, viewUpdate) => {
         setCode(value);

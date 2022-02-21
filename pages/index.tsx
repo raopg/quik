@@ -11,11 +11,11 @@ const Home: NextPage = () => {
       <h1 className="text-4xl font-bold text-white">
         Quik - A blazing fast web IDE
       </h1>
-      <div className="p-1 mt-4 flex flex-row space-between">
-        <div className="h-[40rem] w-[32rem]">
+      <div className="p-1 mt-4 flex flex-row justify-evenly h-[40rem] w-[64rem] rounded-lg bg-gray-500">
+        <div className="h-full w-1/2 bg-white overflow-x-scroll rounded-lg p-2">
           <Editor />
         </div>
-        <div className="bg-white h-[40rem] w-[32rem] ml-4">
+        <div className="bg-white w-1/2 ml-6 pl-4 pt-2 rounded-lg overflow-x-scroll p-2">
           Output goes here
         </div>
       </div>

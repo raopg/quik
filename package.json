@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "dependencies": { 
+  "dependencies": {
     "@uiw/react-codemirror": "^4.4.3",
     "next": "12.1.0",
     "react": "17.0.2",

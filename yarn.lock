@@ -31,7 +31,7 @@
     core-js-pure "^3.20.2"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.16.3":
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.16.3", "@babel/runtime@^7.17.2":
   version "7.17.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.17.2.tgz#66f68591605e59da47523c631416b18508779941"
   integrity sha512-hzeyJyMA1YGdJTuWU0e/j4wKXrU4OMFvY2MSlaI9B7VQb0r5cxTE3EAIS2Q7Tn2RIcDkRvTA/v2JsAEhxe99uw==
@@ -50,7 +50,7 @@
     "@codemirror/view" "^0.19.0"
     "@lezer/common" "^0.15.0"
 
-"@codemirror/basic-setup@^0.19.0":
+"@codemirror/basic-setup@^0.19.1":
   version "0.19.1"
   resolved "https://registry.yarnpkg.com/@codemirror/basic-setup/-/basic-setup-0.19.1.tgz#17b27d02f15c628eb62a85d01e3e1b1958933eb4"
   integrity sha512-gLjD7YgZU/we6BzS/ecCmD3viw83dsgv5ZUaSydYbYx9X4w4w9RqYnckcJ+0GDyHfNr5Jtfv2Z5ZtFQnBj0UDA==
@@ -233,7 +233,7 @@
     "@codemirror/view" "^0.19.34"
     crelt "^1.0.5"
 
-"@codemirror/state@^0.19.0", "@codemirror/state@^0.19.2", "@codemirror/state@^0.19.3", "@codemirror/state@^0.19.4", "@codemirror/state@^0.19.5", "@codemirror/state@^0.19.9":
+"@codemirror/state@^0.19.0", "@codemirror/state@^0.19.2", "@codemirror/state@^0.19.3", "@codemirror/state@^0.19.4", "@codemirror/state@^0.19.9":
   version "0.19.9"
   resolved "https://registry.yarnpkg.com/@codemirror/state/-/state-0.19.9.tgz#b797f9fbc204d6dc7975485e231693c09001b0dd"
   integrity sha512-psOzDolKTZkx4CgUqhBQ8T8gBc0xN5z4gzed109aF6x7D7umpDRoimacI/O6d9UGuyl4eYuDCZmDFr2Rq7aGOw==
@@ -262,10 +262,21 @@
     "@codemirror/state" "^0.19.0"
     "@codemirror/view" "^0.19.0"
 
-"@codemirror/view@^0.19.0", "@codemirror/view@^0.19.15", "@codemirror/view@^0.19.22", "@codemirror/view@^0.19.23", "@codemirror/view@^0.19.31", "@codemirror/view@^0.19.34", "@codemirror/view@^0.19.44":
+"@codemirror/view@^0.19.0", "@codemirror/view@^0.19.22", "@codemirror/view@^0.19.23", "@codemirror/view@^0.19.31", "@codemirror/view@^0.19.34", "@codemirror/view@^0.19.44":
   version "0.19.44"
   resolved "https://registry.yarnpkg.com/@codemirror/view/-/view-0.19.44.tgz#153301eda413e76d2b98dc3870307f918c05c646"
   integrity sha512-vahNUE6hSXdjzs1gcztKPJQhZu+ZIwRpK4ZGZTSD81/CZUVqtlF75W3RCYVgEdjTI1l6ogJmIL6FM2Xj7ltn7Q==
+  dependencies:
+    "@codemirror/rangeset" "^0.19.5"
+    "@codemirror/state" "^0.19.3"
+    "@codemirror/text" "^0.19.0"
+    style-mod "^4.0.0"
+    w3c-keyname "^2.2.4"
+
+"@codemirror/view@^0.19.45":
+  version "0.19.45"
+  resolved "https://registry.yarnpkg.com/@codemirror/view/-/view-0.19.45.tgz#fa608ee1412808e2fa555e48658436dd9e309d5c"
+  integrity sha512-wR19UBYvJMeV9axa5Xo6ATbAP1jl30BPFZ5buu3cJjYXwlRhJDjzw2wUbxk1zsR1LtAe5jrRNeWEtGA+IPacxw==
   dependencies:
     "@codemirror/rangeset" "^0.19.5"
     "@codemirror/state" "^0.19.3"
@@ -492,16 +503,16 @@
     "@typescript-eslint/types" "5.12.0"
     eslint-visitor-keys "^3.0.0"
 
-"@uiw/react-codemirror@^4.4.3":
-  version "4.4.3"
-  resolved "https://registry.yarnpkg.com/@uiw/react-codemirror/-/react-codemirror-4.4.3.tgz#8285d58c3e0cfbf04d61477ca56061592bc78cd7"
-  integrity sha512-NsLH4IZgbNmBePBfpaQDHxq5u6m+gVaXEdTmKzQbqfB4E7MWshiotwHQufUlBsITaYT8Bm0+ZpMRXirvuF+4xw==
+"@uiw/react-codemirror@4.5.1":
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/@uiw/react-codemirror/-/react-codemirror-4.5.1.tgz#f2af4e761f13b729a3ec7c7c858b34432cdf46a7"
+  integrity sha512-90SNE89uJOQgcZwV0fuZjCgDeH7pjagCqwOcYHvDG5Qedp2nKmb4/2mgDCtLBxTGKxb73ktUOkbdu3L05ck1Yg==
   dependencies:
-    "@babel/runtime" "^7.16.3"
-    "@codemirror/basic-setup" "^0.19.0"
-    "@codemirror/state" "^0.19.5"
+    "@babel/runtime" "^7.17.2"
+    "@codemirror/basic-setup" "^0.19.1"
+    "@codemirror/state" "^0.19.9"
     "@codemirror/theme-one-dark" "^0.19.1"
-    "@codemirror/view" "^0.19.15"
+    "@codemirror/view" "^0.19.45"
 
 acorn-jsx@^5.3.1:
   version "5.3.2"
